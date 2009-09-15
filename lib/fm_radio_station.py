@@ -73,18 +73,10 @@ class FmRadioStation(RadioStation):
 
     def _get_topic(self):
         """
-        Overrides _get_topic in RadioStation class. In RadioDNS, the
-        frequency is be a 5-digit integer, but in the RadioVIS topic names,
-        the frequency is a number with 1 decimal place.
+        Overrides _get_topic in RadioStation class.
         """
-
-        # Translate 5-digit frequency, e.g., 09580 -> 95.8
-        freq = self._freq[0:3] + '.' + self._freq[3:4]
-
-        if freq[0] == '0':
-            freq = freq[1:]
 
         query = [freq, self._pi, self._country, self._tx_system]
         query.reverse()
 
-        return "/topic/" + "/".join(query)
+        return string.lower("/topic/" + "/".join(query))
