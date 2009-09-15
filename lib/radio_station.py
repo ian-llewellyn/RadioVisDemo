@@ -59,7 +59,7 @@ class RadioStation(object):
         query = self._get_query()
         query.append(self._tx_system)
         query.reverse()
-        return "/topic/" + "/".join(query)
+        return string.lower("/topic/" + "/".join(query))
 
     def _get_query(self):
         raise NotImplementedError, "_get_query must be overridden in derived classes"
