@@ -79,4 +79,4 @@ class FmRadioStation(RadioStation):
         query = [freq, self._pi, self._country, self._tx_system]
         query.reverse()
 
-        return string.lower("/topic/" + "/".join(query))
+        return "/topic/" + "/".join(query)
