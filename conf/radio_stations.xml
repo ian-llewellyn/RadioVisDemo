@@ -1,174 +1,2062 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <radio_stations>
-    <radio_station>
-        <name>BBC Radio 1</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <ecc>e1</ecc>
-        <pi>c201</pi>
-        <freq>09880</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 1</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <country>uk</country>
-        <pi>c201</pi>
-        <freq>09880</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 2</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <ecc>e1</ecc>
-        <pi>c202</pi>
-        <freq>08880</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 2</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <country>uk</country>
-        <pi>c202</pi>
-        <freq>08880</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 3</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <ecc>e1</ecc>
-        <pi>c203</pi>
-        <freq>09100</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 3</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <country>uk</country>
-        <pi>c203</pi>
-        <freq>09100</freq>
-    </radio_station>
-    
-    <radio_station>
-        <name>BBC Radio 4</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <ecc>e1</ecc>
-        <pi>c204</pi>
-        <freq>09320</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 4</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <country>uk</country>
-        <pi>c204</pi>
-        <freq>09320</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>Capital FM</name>
-        <broadcast_protocol>fm</broadcast_protocol>
-        <ecc>e1</ecc>
-        <pi>c586</pi>
-        <freq>09580</freq>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 1</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c221</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 1Xtra</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c22a</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 2</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c222</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 3</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c223</sid>
-        <scids>0</scids>
-    </radio_station>
-    
-    <radio_station>
-        <name>BBC Radio 4</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c224</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 5 Live</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c225</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 5 Live Sports Extra</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c228</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 6 Music</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c22b</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Radio 7</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c22c</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC Asian Network</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c236</sid>
-        <scids>0</scids>
-    </radio_station>
-
-    <radio_station>
-        <name>BBC World Service</name>
-        <broadcast_protocol>dab</broadcast_protocol>
-        <ecc>ce1</ecc>
-        <eid>ce15</eid>
-        <sid>c238</sid>
-        <scids>0</scids>
-    </radio_station>
+  <radio_station>
+    <name>Beacon Radio (Shrewsbury and Telford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c5b1</pi>
+    <freq>10310</freq>
+  </radio_station>
+  <radio_station>
+    <name>Beacon Radio (Wolverhampton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c6b1</pi>
+    <freq>09720</freq>
+  </radio_station>
+  <radio_station>
+    <name>Beacon Radio (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18b</eid>
+    <sid>c6b1</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>96.4 BRMB (Birmingham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cab2</pi>
+    <freq>09640</freq>
+  </radio_station>
+  <radio_station>
+    <name>96.4 BRMB (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c183</eid>
+    <sid>cab2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>95.8 Capital FM (London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c586</pi>
+    <freq>09580</freq>
+  </radio_station>
+  <radio_station>
+    <name>95.8 Capital FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c185</eid>
+    <sid>c586</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Chill. (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c183</eid>
+    <sid>c1c3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Chill. (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18a</eid>
+    <sid>c1c3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Chill. (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c182</eid>
+    <sid>c1c3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Chill. (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c185</eid>
+    <sid>c1c3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (Brixton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c8b2</pi>
+    <freq>09690</freq>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (North London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c898</pi>
+    <freq>10710</freq>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c199</eid>
+    <sid>c8b2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18c</eid>
+    <sid>cac6</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c192</eid>
+    <sid>ccc5</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c197</eid>
+    <sid>cfc7</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c189</eid>
+    <sid>cac6</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c196</eid>
+    <sid>c7cf</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Choice FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a8</eid>
+    <sid>c0ce</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Cumbria FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>09990</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Devon FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10000</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (West Midlands FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10010</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Tayside FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10010</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Bath FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10020</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Isle of Man FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10020</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Isle of Wight FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10030</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Bradford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10030</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Durham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10030</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Bedford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10040</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Hereford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10040</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Northern Ireland FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10050</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Grampian FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10050</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Lincolnshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10050</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (South West Wales FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10050</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10060</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (North West Wales FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10070</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Swindon FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10080</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Selkirk FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10090</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10090</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Newcastle FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10100</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (West Yorkshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10110</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Cardigan Bay FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10110</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Oxfordshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10130</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (West Glamorgan FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10130</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Ayrshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10130</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Moray Firth FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10140</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Bristol FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10140</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Norfolk FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10150</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Cornwall FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10150</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Teeside FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10160</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Leeds FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10160</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (North Wales FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10160</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (South Glamorgan FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10170</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Glasgow FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10170</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (South Yorkshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10170</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Kent FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10180</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Morecambe Bay FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10180</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Reading FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10180</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Brighton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10190</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Cambridgeshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10190</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (Northern Ireland FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c2a1</pi>
+    <freq>10190</freq>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c193</eid>
+    <sid>c2a1</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Classic FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c181</eid>
+    <sid>c2a1</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Birmingham (Birmingham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c5aa</pi>
+    <freq>10220</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Birmingham (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c196</eid>
+    <sid>c5aa</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Manchester (Manchester FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4aa</pi>
+    <freq>10200</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Manchester (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c197</eid>
+    <sid>c4aa</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy North East (North East England FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4af</pi>
+    <freq>10530</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy North East (North East England FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4af</pi>
+    <freq>10560</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy North East (Hexham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4af</pi>
+    <freq>10580</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy North East (North East England FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4af</pi>
+    <freq>10640</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy North East (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c192</eid>
+    <sid>c4af</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Scotland (Central Scotland FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3af</pi>
+    <freq>10570</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Scotland (Central Scotland FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3af</pi>
+    <freq>10610</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Scotland (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c191</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (Southampton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c79d</pi>
+    <freq>10320</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19d</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b0</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19f</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ab</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b1</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a3</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy South Coast (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a9</eid>
+    <sid>c79d</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (Yorkshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3aa</pi>
+    <freq>10510</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (Bradford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3aa</pi>
+    <freq>10560</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (Sheffield FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3aa</pi>
+    <freq>10560</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (North Humberside FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3aa</pi>
+    <freq>10580</freq>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a2</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c185</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a7</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ae</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a1</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ad</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c194</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19c</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a4</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a8</eid>
+    <sid>c3aa</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Galaxy Yorkshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1af</eid>
+    <sid>c9cc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c183</eid>
+    <sid>c3d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19d</eid>
+    <sid>c1d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18c</eid>
+    <sid>c2d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1af</eid>
+    <sid>c3d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c189</eid>
+    <sid>c4d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18e</eid>
+    <sid>c5d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19c</eid>
+    <sid>ced2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ab</eid>
+    <sid>c7d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a2</eid>
+    <sid>c8d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c195</eid>
+    <sid>c4d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c198</eid>
+    <sid>c5d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18f</eid>
+    <sid>c6d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18d</eid>
+    <sid>c7d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c186</eid>
+    <sid>c8d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c191</eid>
+    <sid>cbcc</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19f</eid>
+    <sid>c6d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c187</eid>
+    <sid>cad3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c190</eid>
+    <sid>cbd3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c188</eid>
+    <sid>ccd3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c184</eid>
+    <sid>c9d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a7</eid>
+    <sid>c9d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ae</eid>
+    <sid>cad2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a1</eid>
+    <sid>cbd2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b1</eid>
+    <sid>ccd2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ad</eid>
+    <sid>cdd2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a3</eid>
+    <sid>cfd2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a9</eid>
+    <sid>c0d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a4</eid>
+    <sid>c1d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a5</eid>
+    <sid>c0d2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Gold (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18b</eid>
+    <sid>c2d3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Anglesey &amp; Gwynedd (Caernarfon FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c47a</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Bath (Bath FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cd86</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Bath (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a5</eid>
+    <sid>cd86</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Bedfordshire (Bedford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>09690</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Beds / Bucks / Herts (Luton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>ce86</pi>
+    <freq>09760</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Berkshire &amp; North Hamsphire (Reading FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c361</pi>
+    <freq>09700</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Berkshire &amp; North Hamsphire (Basingstoke and Andover FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c361</pi>
+    <freq>10290</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Berkshire &amp; North Hamsphire (Henley FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c361</pi>
+    <freq>10340</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Berkshire &amp; North Hamsphire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ad</eid>
+    <sid>c361</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Bristol (Bristol FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cc86</pi>
+    <freq>09630</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Bristol (Weston-Super-Mare FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cf86</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Bristol (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18c</eid>
+    <sid>cc86</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Cambridgeshire (Haverhill FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36a</pi>
+    <freq>09740</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Cambridgeshire (Newmarket FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36a</pi>
+    <freq>09740</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Cambridgeshire (Cambridge FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36a</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Cambridgeshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1af</eid>
+    <sid>c36a</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Cheshire &amp; N.E. Wales (Wrexham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c47d</pi>
+    <freq>10340</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Colchester (Colchester FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c46b</pi>
+    <freq>09610</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Dorset &amp; New Forest (Bournemouth FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>ce86</pi>
+    <freq>10230</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Dorset &amp; New Forest (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19d</eid>
+    <sid>ce86</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart East Midlands (East Midlands FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3ab</pi>
+    <freq>10600</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart East Midlands (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a2</eid>
+    <sid>c3ab</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart East Midlands (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ae</eid>
+    <sid>c3ab</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Essex (Southend FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c364</pi>
+    <freq>09630</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Essex (Southend Town FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c364</pi>
+    <freq>09750</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Essex (Chelmsford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c364</pi>
+    <freq>10260</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Essex (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19c</eid>
+    <sid>c2ca</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Exeter &amp; East Devon (Torbay FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c8b0</pi>
+    <freq>09640</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Exeter &amp; East Devon (Exeter FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>09700</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Exeter &amp; East Devon (East Devon FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Gloucestershire (Gloucester and Cheltenham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c377</pi>
+    <freq>10240</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Gloucestershire (Gloucester and Cheltenham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c377</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Hampshire &amp; West Sussex (Winchester FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c986</pi>
+    <freq>09670</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Hampshire &amp; West Sussex (Portsmouth FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c986</pi>
+    <freq>09750</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Kent (East Kent FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c886</pi>
+    <freq>09590</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Kent (East Kent (Ashford) FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c886</pi>
+    <freq>09610</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Kent (East Kent FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c886</pi>
+    <freq>09700</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Kent (East Kent (Canterbury) FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c886</pi>
+    <freq>10280</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Kent (Maidstone and Medway FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c886</pi>
+    <freq>10310</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Kent (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ab</eid>
+    <sid>c2cf</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3a6</pi>
+    <freq>10620</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c191</eid>
+    <sid>c4c9</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c185</eid>
+    <sid>c3a6</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c192</eid>
+    <sid>cdc5</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c197</eid>
+    <sid>c0c8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c194</eid>
+    <sid>cbc6</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart London (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a8</eid>
+    <sid>cccd</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Milton Keynes (Milton Keynes FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cc86</pi>
+    <freq>10330</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart North Devon (Barnstaple FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b6</pi>
+    <freq>09620</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart North Devon (Ilfracombe FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b6</pi>
+    <freq>09730</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart North Wales Coast (North Wales Coast FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c47b</pi>
+    <freq>09630</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Northampton (Northampton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>ca86</pi>
+    <freq>09660</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Norwich (Great Yarmouth and Norwich FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c463</pi>
+    <freq>10240</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Norwich (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a7</eid>
+    <sid>c486</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Oxfordshire (Banbury FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c5b7</pi>
+    <freq>09740</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Oxfordshire (Oxford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b7</pi>
+    <freq>10260</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Peterborough (Peterborough FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c786</pi>
+    <freq>10270</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Peterborough (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a1</eid>
+    <sid>c786</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Plymouth (Tavistock FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b4</pi>
+    <freq>09660</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Plymouth (Plymouth FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b4</pi>
+    <freq>09700</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Plymouth (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b0</eid>
+    <sid>c4b4</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Plymouth (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b1</eid>
+    <sid>c4b4</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Somerset (Taunton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b2</pi>
+    <freq>09650</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Somerset (Yeovil FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b2</pi>
+    <freq>09710</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Somerset (Somerset FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b2</pi>
+    <freq>10260</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart South Hams (Totnes FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c7b8</pi>
+    <freq>10050</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart South Hams (Dartmouth FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c7b8</pi>
+    <freq>10080</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart South Hams (South Hams FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c7b8</pi>
+    <freq>10120</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart South Hams (Ivybridge FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c7b8</pi>
+    <freq>10190</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart South Hams (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a3</eid>
+    <sid>c986</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Suffolk (Bury St Edmunds FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36c</pi>
+    <freq>09640</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Suffolk (Ipswich FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36c</pi>
+    <freq>09710</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Sussex (Brighton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>09690</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Sussex (Hastings FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>10200</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Sussex (Eastbourne FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>10240</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Sussex (Brighton FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>10350</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Sussex (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a9</eid>
+    <sid>c9ce</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Torbay &amp; South Devon (Exeter FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>09700</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Torbay &amp; South Devon (East Devon FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>10300</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Torbay &amp; South Devon (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19f</eid>
+    <sid>cccb</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart West Midlands (West Midlands FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c3a6</pi>
+    <freq>10070</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart West Midlands (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c196</eid>
+    <sid>c8c7</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Wiltshire (Marlborough FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>09650</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Wiltshire (Swindon FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>09720</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Wiltshire (West Wiltshire FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>cb86</pi>
+    <freq>10220</freq>
+  </radio_station>
+  <radio_station>
+    <name>Heart Wiltshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a5</eid>
+    <sid>cb86</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Wiltshire (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a4</eid>
+    <sid>cb86</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Heart Wirral (Deeside FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c47e</pi>
+    <freq>09710</freq>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c581</pi>
+    <freq>09730</freq>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c192</eid>
+    <sid>c1c6</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c197</eid>
+    <sid>c4c8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c194</eid>
+    <sid>cfc6</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c196</eid>
+    <sid>cdc7</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a8</eid>
+    <sid>c2ce</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>LBC 97.3 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c185</eid>
+    <sid>c581</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>LBC News 1152 (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c199</eid>
+    <sid>c5c2</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Leicester Sound (Leicester FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c366</pi>
+    <freq>10540</freq>
+  </radio_station>
+  <radio_station>
+    <name>Leicester Sound (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a2</eid>
+    <sid>c366</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Mercia (Coventry FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c367</pi>
+    <freq>09700</freq>
+  </radio_station>
+  <radio_station>
+    <name>Mercia (Leamington Spa FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c367</pi>
+    <freq>10290</freq>
+  </radio_station>
+  <radio_station>
+    <name>Mercia (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18e</eid>
+    <sid>cfc3</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Mercury FM (Reigate and Crawley FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c9b5</pi>
+    <freq>09750</freq>
+  </radio_station>
+  <radio_station>
+    <name>Mercury FM (Reigate and Crawley FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c9b5</pi>
+    <freq>10270</freq>
+  </radio_station>
+  <radio_station>
+    <name>Ram FM (Derby FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c37c</pi>
+    <freq>10280</freq>
+  </radio_station>
+  <radio_station>
+    <name>Red Dragon (Newport FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c68c</pi>
+    <freq>09740</freq>
+  </radio_station>
+  <radio_station>
+    <name>Red Dragon (Cardiff FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c68c</pi>
+    <freq>10320</freq>
+  </radio_station>
+  <radio_station>
+    <name>Red Dragon (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c189</eid>
+    <sid>c38c</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Ten-17 FM (Harlow FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36d</pi>
+    <freq>10170</freq>
+  </radio_station>
+  <radio_station>
+    <name>Trent FM (Nottingham FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36e</pi>
+    <freq>09620</freq>
+  </radio_station>
+  <radio_station>
+    <name>Trent FM (Mansfield FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c36e</pi>
+    <freq>09650</freq>
+  </radio_station>
+  <radio_station>
+    <name>Trent FM (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ae</eid>
+    <sid>c36e</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Wyvern FM (Kidderminster FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>09670</freq>
+  </radio_station>
+  <radio_station>
+    <name>Wyvern FM (Hereford FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>09760</freq>
+  </radio_station>
+  <radio_station>
+    <name>Wyvern FM (Worcester FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c4b0</pi>
+    <freq>10280</freq>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (London FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c0b8</pi>
+    <freq>10490</freq>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c198</eid>
+    <sid>cdc8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c187</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c190</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c188</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c183</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19d</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1af</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b0</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18e</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19f</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ab</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a2</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c186</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a7</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ae</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a1</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1b1</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1ad</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a3</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c194</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c19c</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a9</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a4</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c1a5</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18b</eid>
+    <sid>c0b8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c191</eid>
+    <sid>c3af</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm Manchester (Manchester FM Tx)</name>
+    <broadcast_protocol>fm</broadcast_protocol>
+    <ecc>e1</ecc>
+    <pi>c8b8</pi>
+    <freq>09770</freq>
+  </radio_station>
+  <radio_station>
+    <name>Xfm Manchester (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c184</eid>
+    <sid>c2c1</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm Manchester (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c195</eid>
+    <sid>c7c8</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm Manchester (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18f</eid>
+    <sid>c7c5</sid>
+    <scids>0</scids>
+  </radio_station>
+  <radio_station>
+    <name>Xfm Manchester (DAB Mux)</name>
+    <broadcast_protocol>dab</broadcast_protocol>
+    <ecc>ce1</ecc>
+    <eid>c18d</eid>
+    <sid>c0c5</sid>
+    <scids>0</scids>
+  </radio_station>
 </radio_stations>
